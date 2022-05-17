@@ -1,0 +1,135 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+.OpretHeader {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.OpslagOverskrift {
+    width: 300px;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.opretImg {
+    width: 300px;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.opslagDiv {
+    width: 300px;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.tekstValg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #9E4F5C;
+    padding: 5px;
+}
+
+.farveTekst {
+    font-size: 0.8rem; 
+    margin-right: 5px;
+}
+
+.farve {
+    background-color: #9E4F5C;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.tekstForm {
+    border: 1px solid #5a5a5a;
+    background-color: #ffffff;
+    width: 25px; 
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.strTekst {
+    font-size: 0.8rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.tal {
+    border: 1px solid #5a5a5a;
+    background-color: #ffffff;
+    width: 25px; 
+    height: 25px;
+    text-align: center;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.opslagTekst {
+    height: 100px;
+    width: 290px;
+    padding: 5px;
+}
+
+.sorter {
+    width: 300px;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+.sorterHeader {
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.katFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.katTekst {
+    font-size: 1rem;
+}
+
+.katCheck {
+    width: 25px;
+    height: 25px;
+}
+
+

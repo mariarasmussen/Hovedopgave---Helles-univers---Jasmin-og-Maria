@@ -1,0 +1,118 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+.tilbageKnap {
+    text-decoration: none;
+    color: #5a5a5a;
+    margin-left: 20px;
+}
+
+.opslagBoks {
+    background-color: #ffffff;
+    border-radius: 14px;
+    width: 338px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.navnOgLikeOpslag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.opslagNavnOgImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.helleOpslag {
+    width: 30px;
+}
+
+.likeIkonOpslag {
+    width: 30px;
+}
+
+.helleOpslagNavn {
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.opslagHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.opslagBillede {
+    width: 317px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* kjole opslag */
+.kjolelangdeTekst {
+    width: 317px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+    line-height: 1.7;
+}
+
+/* stilvejledning opslag */
+.dotOgTekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin-top: 5px;
+}
+
+.dotTekst {
+    width: 279px;
+    line-height: 1.7;
+    font-size: 0.9rem;
+}
+
+.citat {
+    color: #9E4F5C;
+    width: 318px; 
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.opslagHeaderPris {
+    text-align: center;
+    color: #9E4F5C;
+    font-weight: 600;
+    padding-bottom: 20px;
+    line-height: 1.7;
+}
+
+.infoTekstOpslag {
+    line-height: 1.7;
+    font-size: 0.9rem;
+    width: 318px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,45 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+/* CSS reset */
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.menuBar {
+    background-color: #ffffff;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    overflow: hidden;
+    position: fixed; 
+    bottom: 0; 
+    padding: 10px 0; 
+    align-items: center;
+    z-index: 9999;
+    width: 375px;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 0.4s, opacity 0.4s linear;
+    height: 1px;
+  } 
+  
+.header {
+    display: flex;
+    justify-content: end;
+}
+
+.searchKnap {
+    width: 30px;
+    margin: 20px;
+}
+
+.nav_ikon {
+    width: 30px; 
+}

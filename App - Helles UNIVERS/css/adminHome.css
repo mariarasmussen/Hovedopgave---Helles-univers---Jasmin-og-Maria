@@ -1,0 +1,80 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+.helleNavnIMG {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+}
+
+.helleImg {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.helleNavn {
+    font-size: 0.8rem;
+    width: 80px;
+}
+
+.adminHeader {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.status {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 3;
+}
+
+.ToDo {
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.adminFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.adminIkon {
+    width: 150px;
+    margin: 5px 10px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.adminNyhed {
+    background-color: #ffffff;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.adminHomeLink {
+    width: 50px;
+    display: block;
+    margin: 3px auto;
+}
+
+/*-- admin nyheder --*/
+
+.sletIkon {
+    height: 30px;
+    margin-left: 10px;
+}

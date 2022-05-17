@@ -1,0 +1,25 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+.infoKategoriTekst {
+    width: 300px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flexOption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.optionTekst {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.knap_ {
+    margin-top: 30px;
+}

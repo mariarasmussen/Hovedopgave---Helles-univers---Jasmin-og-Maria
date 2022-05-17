@@ -1,0 +1,35 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+.guideLogo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.guideBox {
+    background-color: white;
+    border-radius: 14px;
+    width: 293px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.guideImg {
+    width: 40px;
+    display: block;
+    margin: 30px auto 0;
+
+}
+
+.guideTekst {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}

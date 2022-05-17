@@ -1,0 +1,307 @@
+/*-- Al CSS kode er lavet i fællesskab --*/
+/* nyheder styling */
+.nyhedsbox {
+    background-color: #ffffff;
+    width: 318px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    margin-bottom: 20px;
+}
+
+.pat {
+    padding-bottom: 60px;
+}
+
+.helle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0 8px 10px;
+}
+
+.nyhedMiniImg {
+    width: 30px;
+}
+
+.navn {
+    font-size: 0.8rem;
+    padding: 0 0 0 8px;
+}
+
+.hjerteOgNavn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.nyhedImg {
+    width: 300px;
+    height: 169px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.like {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+
+.overskrifth3 {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.likeIkon {
+    width: 30px; 
+}
+
+/* spørgsmål styling */
+.stilsprg { 
+    width: 337px; 
+    height: 110px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.inputstyle {
+    padding: 10px;
+    margin: -10px 10px;
+    font-size: 0.9rem;
+    width: 270px;
+}
+
+.addImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.addImgIkon {
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.addImgText {
+    text-align: center;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.sendKnap {
+    margin-top: 10px;
+    cursor: pointer;
+    width: 30px;
+}
+
+/*-- Kommentar --*/
+.tilbageKommentar {
+    color: #5a5a5a; 
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.KommenterHeader {
+    text-align: center;
+}
+
+.svar {
+    background-color: #ffffff;
+    border-radius: 14px;
+    width: 337px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+}
+
+.enMere {
+    margin-top: 20px;
+}
+
+.enkeltKommentar1 {
+    background-color: #9e4f5c85;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 14px; 
+    margin-bottom: 10px;
+}
+
+.enkeltKommentar {
+    background-color: #9e4f5c3d;
+    width: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+    border-radius: 14px;  
+    margin-bottom: 10px;
+}
+
+.lilleTekst {
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navnOgTid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navnOgImg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.enkeltImg {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.enkeltNavn {
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.tid {
+    font-size: 0.7rem;
+}
+
+.kommentarTekst {
+    padding: 5px;
+}
+
+.kommenterFlex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-top: 1px solid #9e4f5c3d;
+}
+
+.skriv {
+    padding: 5px;
+    width: 280px;
+}
+
+.sendIkon {
+    width: 30px;
+}
+
+
+/* Spørgsmål fra medlemmerne */
+.brugerSprg {
+    background-color: #ffffff;
+    width: 337px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 14px;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, .3));
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.pb {
+    margin: 10px 0 10px 10px;
+    height: 40px;
+    width: 40px;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.profilImgOgNavn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profilNavn {
+    margin-left: 10px;
+}
+
+.spørgsmålBruger {
+    margin: 0px 0 10px 10px;
+}
+
+.likeOgKommenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.likeSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kommenterSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kommenterlink {
+    color: #5a5a5a; 
+    text-decoration: none;
+}
+
+.LKikon {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.LKtekst {
+    margin-left: 5px;
+}
+
+.kjoler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.bukser {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

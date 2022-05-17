@@ -1,0 +1,2140 @@
+<!-- Al HTML kode er lavet i fællesskab -->
+<!doctype html>
+<html lang="da">
+
+<head>
+  <meta charset="utf-8">
+  <title>Helles UNIVERS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Helles univers kan hentes i app store, dette er et betalt medlemsskab som giver et hav af tips og tricks til mode, makeovers, spørgerunder og hvor kvinden er i fokus. Du bliver medlem af en app som opfylder standarden inden for sikkerhed og indhold. ">
+  <meta name="author" content="Jasmin og Maria">
+  <link rel="stylesheet" href="css/hellesProfil.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/likedOgVideoer.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/administrerProfiler.css">
+  <link rel="stylesheet" href="css/nyhederOgSpoergsmaal.css">
+  <link rel="stylesheet" href="css/adminHome.css">
+  <link rel="stylesheet" href="css/opretBruger.css">
+  <link rel="stylesheet" href="css/opretOpslag.css">
+  <link rel="stylesheet" href="css/slideButton.css">
+  <link rel="stylesheet" href="css/guide.css">
+  <link rel="stylesheet" href="css/opslag.css">
+  <link rel="stylesheet" href="css/profilOgRetprofil.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,500;0,800;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body onhashchange="pageChange()">
+  <div class="all">
+  <!-- tabbar navigation -->
+  <div class="header" id="header">
+    <img src="img/ikoner/search.png" alt="search" class="searchKnap">
+  </div>
+
+  <nav class="menuBar">
+    <a href="#liveOgVideo" class="nav-link"><img src="img/ikoner/live.png" alt="liveOgVideo"
+        class="nav_ikon"></a>
+    <a href="#question" class="nav-link"><img src="img/ikoner/question.png" alt="question" class="nav_ikon"></a>
+    <a href="#home" class="nav-link"><img src="img/ikoner/home.png" alt="home"
+        class="nav_ikon"></a>
+    <a href="#liked" class="nav-link"><img src="img/ikoner/like.png" alt="liked" class="nav_ikon"></a>
+    <a href="#profil" class="nav-link"><img src="img/ikoner/profil.png" alt="profil" class="nav_ikon"></a>
+  </nav>
+
+
+  <!-- All pages -->
+
+  <!-- Guide -->
+  <section class="page" id="Guide">
+    <img src="img/ikoner/logo.png" alt="logo" class="guideLogo">
+    <div class="guideBox">
+      <img src="img/ikoner/home.png" alt="img" class="guideImg">
+      <p class="guideTekst">Få inspiration, konkurrencer, rabatter 
+        og meget mere.</p>
+      <img src="img/ikoner/live.png" alt="img" class="guideImg">
+      <p class="guideTekst">Se styling-videoer og lives</p>
+      <img src="img/ikoner/question.png" alt="img" class="guideImg">
+      <p class="guideTekst">Stil og svar på spørgsmål fra andre 
+        brugere</p>
+      <img src="img/ikoner/like.png" alt="img" class="guideImg">
+      <p class="guideTekst">Like og gem opslag, spørgsmål og 
+        videoer som du gerne vil kunne
+        finde igen</p>
+    </div>
+    <a href="#login" rel="link" class="knap">FÆRDIG</a>
+  </section>
+
+  <!-- Log ind -->
+  <section class="page" id="login">
+    <a href="#admin" rel="link" class="helleLink">
+      <img src="img/ikoner/logo.png" alt="billede" class="logo">
+    </a>
+    <input type="text" placeholder="Email" class="loginInfo">
+    <input type="text" placeholder="Kodeord" class="loginInfo">
+    <a href="#home" rel="link" class="knap">LOG IND</a>
+    <p class="glemtKode">Har du glemt dit kodeord?</p>
+    <a href="" rel="link" class="klikGlemt">Klik her</a>
+    <p class="ingenKonto">Har du ikke en konto?</p>
+    <a href="#opretProfil" rel="link" class="knap">Opret profil</a>
+  </section>
+
+  <section class="page" id="opretProfil">
+    <h2 class="jetteKategori">Opret profil</h2>
+    <input class="redigerInput" type="text" placeholder="Tilføj profilbillede">
+    <input class="redigerInput" type="text" placeholder="Fulde navn">
+    <input class="redigerInput" type="text" placeholder="E-mail">
+    <input class="redigerInput" type="text" placeholder="Kodeord">
+    <input class="redigerInput" type="text" placeholder="Gentag kodeord">
+    <h2 class="jetteKategori">Fødselsdag</h2>
+    <div class="alderFlex">
+      <form>
+        <div class="form_row">
+          <select name="days">
+            <option value="day-select">Dag</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <select name="month">
+            <option value="month-select">Måned</option>
+            <option value="januar">Januar</option>
+            <option value="februar">Februar</option>
+            <option value="marts">Marts</option>
+            <option value="april">April</option>
+            <option value="maj">Maj</option>
+            <option value="juni">Juni</option>
+            <option value="juli">Juli</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="oktober">Oktober</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+          </select>
+          <select name="year">
+            <option value="year-select">År</option>
+            <option value="1982">1982</option>
+            <option value="1981">1981</option>
+            <option value="1980">1980</option>
+            <option value="1979">1979</option>
+            <option value="1978">1978</option>
+            <option value="1977">1977</option>
+            <option value="1976">1976</option>
+            <option value="1975">1975</option>
+            <option value="1974">1974</option>
+            <option value="1973">1973</option>
+            <option value="1972">1972</option>
+            <option value="1971">1971</option>
+            <option value="1970">1970</option>
+            <option value="1969">1969</option>
+            <option value="1968">1968</option>
+            <option value="1967">1967</option>
+            <option value="1966">1966</option>
+            <option value="1965">1965</option>
+            <option value="1964">1964</option>
+            <option value="1963">1963</option>
+            <option value="1962">1962</option>
+            <option value="1961">1961</option>
+            <option value="1960">1960</option>
+            <option value="1959">1959</option>
+            <option value="1958">1958</option>
+            <option value="1957">1957</option>
+            <option value="1956">1956</option>
+            <option value="1955">1955</option>
+            <option value="1954">1954</option>
+            <option value="1953">1953</option>
+            <option value="1952">1952</option>
+            <option value="1951">1951</option>
+            <option value="1950">1950</option>
+            <option value="1949">1949</option>
+            <option value="1948">1948</option>
+            <option value="1947">1947</option>
+            <option value="1946">1946</option>
+            <option value="1945">1945</option>
+            <option value="1944">1944</option>
+            <option value="1943">1943 </option>
+            <option value="1942">1942</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <h2 class="jetteKategori">Kategorier</h2>
+    <p class="infoKategoriTekst">Vælg de kategorier du ønsker at få nyheder fra, så du kan følge med i præcis det du kan lide. </p>
+    <div class="kategoriFlex">
+      <div class="flexTekst">
+        <p class="Kategoritekst">Konkurrencer</p>
+        <p class="Kategoritekst">Medlemsfordele</p>
+        <p class="Kategoritekst">Nyhedsbrev</p>
+        <p class="Kategoritekst">Inspiration</p>
+        <p class="Kategoritekst">Styling-foredrag</p>
+      </div>
+      <div class="flexKnap">
+        <div class="switch">
+          <input type="checkbox" id="c30">
+          <label for="c30"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c31">
+          <label for="c31"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c32">
+          <label for="c32"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="33">
+          <label for="33"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="34">
+          <label for="34"><span></span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="kategoriFlex">
+      <div class="flexKnap1">
+        <div class="switch">
+          <input type="checkbox" id="c6">
+          <label for="c6"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c7">
+          <label for="c7"><span></span></label>
+        </div>
+      </div>
+      <div class="flexTekst">
+        <p class="Kategoritekst1">Persondata</p>
+        <p class="Kategoritekst1">Samtykkeerklæring</p>
+      </div>
+    </div>
+    
+
+    <a href="#home" rel="link" class="knap knap_">Opret profil</a>
+  </section>
+
+  <!-- Main pages - bruger -->
+  <!-- Live og video -->
+  <section id="liveOgVideo" class="page">
+    <h2 class="overskrift">Live og videoer</h2>
+    <div class="aktivlive">
+      <p class="liveText">INGEN AKTIVE LIVES</p>
+    </div>
+    <h3 class="videoHeader">Afsluttede lives </h3>
+    <div class="videoFlex">
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/KgIO5xPuqdQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">17. Januar 2022</h4>
+          <img src="img/ikoner/like.png" alt="bilelde" class="videoLike">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/zfb-gRWPBLk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">30. Januar 2022</h4>
+          <img src="img/ikoner/like.png" alt="billede" class="videoLike">
+        </div>
+      </div>
+    </div>
+    <p class="loadMore">Indlæs flere....</p>
+    <h3 class="videoHeader">Alle videoer</h3>
+    <div class="videoFlex">
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/hVvhy5gmpXk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/like.png" alt="billede" class="videoLike">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/jKJT_mEHuLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Solbrille video</h4>
+          <img src="img/ikoner/like.png" alt="billede" class="videoLike">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/AhrV0wzQgRM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/like.png" alt="billede" class="videoLike">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/76Vwiz6b69U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/like.png" alt="billede" class="videoLike">
+        </div>
+      </div>
+    </div>
+    <p class="loadMore">Indlæs flere....</p>
+  </section>
+
+  <!-- Spørgsmål -->
+  <!-- Stil spørgsmål -->
+  <section id="question" class="page">
+    <h2 class="overskrift">Spørgsmål</h2>
+    <div class="stilsprg">
+      <input type="text" class="inputstyle" placeholder="Skriv dit spørgsmål her...">
+      <img src="img/ikoner/send.png" alt="billede" class="sendKnap" >
+      <div class="addImg">
+        <img src="img/ikoner/image.png" alt="billede" class="addImgIkon">
+        <p class="addImgText">Tilføj billede</p>
+      </div>
+    </div>
+
+    <!-- Bruger spørgsmål -->
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/jette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Jette Malic Hansen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle <br>
+        Kan du anbefale en god steamer til tøj?<br>
+        Mvh Jette </p>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#JetteKommenter" rel="link" class="kommenterlink"><p class="LKtekst">Kommenter</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/henriette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Henriette Sørensen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle
+        Jeg skal til bryllup til april, og ønsker lidt 
+        vejledning til hvilken kjole der passer bedst til
+        mig. Vil du hjælpe?😍 <br>
+        Mvh Henriette
+      </p>
+      <div class="kjoler">
+        <img src="img/blueDress.jpg" alt="img" class="askImg">
+        <img src="img/purpleDress.jpg" alt="img" class="askImg">
+      </div>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+          <p class="LKtekst">Kommenter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/margit.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Margit Høj Larsen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle <br>
+        Jeg skal ud og shoppe forårstøj. Hvilke 
+        Butikker er et must at tage forbi? Og hvor har
+        Du købt dit grønne jakkesæt?💚😍<br>
+        Mvh Margit
+      </p>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#MargitKommenter" rel="link" class="kommenterlink"> <p class="LKtekst">Kommenter</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/Marianne.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Marianne Lauritzen</p>
+      </div>
+      <p class="spørgsmålBruger"> Goddaw Helle <br>
+        Jeg vil hører om du kan give et tip til momjeans. 
+        Med hvornår de er for store og hvornår de er for
+        ’små’ ? :D <br>
+        Fra Marianne Lauritzen </p>
+        <img src="img/momJeans.jpg" alt="img" class="bukser">
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#MarianneKommenter" rel="link" class="kommenterlink"><p class="LKtekst">Kommenter</p></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/helleImg.png" alt="profil billede" class="pb">
+        <p class="profilNavn">Stylist Helle Bille</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej skønne kvinder,<br>
+        Jeg vil hører om der er noget i har særlig lyst
+        til, at hører om? Evt noget med kropstyper, 
+        ærmelængder eller blive mere selvsikker på 
+        jeres udstråling?
+        Smid en kommentar🥳 <br>
+        Hilsen Helle Bille
+      </p>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#StylistHelleKommenter" rel="link" class="kommenterlink"><p class="LKtekst">Kommenter</p></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Henriette kommentar-->
+  <section class="page" id="henrietteKommenter">
+    <a href="#question" rel="link" class="tilbageKommentar">Tilbage</a>
+    <h2 class="KommenterHeader">Kommenter</h2>
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/henriette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Henriette Sørensen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle
+        Jeg skal til bryllup til april, og ønsker lidt 
+        vejledning til hvilken kjole der passer bedst til
+        mig. Vil du hjælpe?😍 <br>
+        Mvh Henriette
+      </p>
+      <div class="kjoler">
+        <img src="img/blueDress.jpg" alt="img" class="askImg">
+        <img src="img/purpleDress.jpg" alt="img" class="askImg">
+      </div>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+          <p class="LKtekst">Kommenter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="svar">
+      <p class="lilleTekst">10 kommentarer</p>
+
+      <div class="enkeltKommentar1">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/helleImg.png" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Stylist Helle Bille</p>
+          </div>
+          <p class="tid">30. december 20:18</p>
+        </div>
+        <p class="kommentarTekst">Hej Henriette
+          Begge kjoler er rigtig fine, dog synes jeg den
+          Blå er mere formel, og samtidig har den et
+          Pænere snit.😁 Du kan evt tilføje en let 
+          cardigan, Evt en blaser. Derudover synes jeg 
+          nogle fine Armbånd kunne være flot. 
+          Jeg håber du finder det helt rigtige.😍 
+          Mvh Stylist Helle Bille</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/jette.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Jette Malic Hansen</p>
+          </div>
+          <p class="tid">30. december 20:33</p>
+        </div>
+        <p class="kommentarTekst">Jeg synes helt klart den blå! Den er mere 
+          formel. </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Lotte.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Lotte Jørgensen</p>
+          </div>
+          <p class="tid">30. december 20:18</p>
+        </div>
+        <p class="kommentarTekst">Jeg kan godt lide den lilla. Jeg har en magen
+          Til der hjemme❤️</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Joan.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Joan Melvin Hansen</p>
+          </div>
+          <p class="tid">29. december 07.47</p>
+        </div>
+        <p class="kommentarTekst">Hvad med en grøn? Det er så pænt💚 </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Lene.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Lene Østergaard</p>
+          </div>
+          <p class="tid">30. december 06.33</p>
+        </div>
+        <p class="kommentarTekst">Mine knæ plejer, at se store ud i en lårkort 
+          kjole. </p>
+      </div>
+
+      <p class="lilleTekst">Se flere kommentarer...</p>
+
+      <div class="kommenterFlex">
+        <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+        <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+      </div>
+    </div>
+  </section>
+
+      <!--Helle kommentar-->
+      <section class="page" id="StylistHelleKommenter">
+        <a href="#question" rel="link" class="tilbageKommentar">Tilbage</a>
+        <h2 class="KommenterHeader">Kommenter</h2>
+        <div class="brugerSprg">
+          <div class="profilImgOgNavn">
+            <img src="img/helleImg.png" alt="profil billede" class="pb">
+            <p class="profilNavn">Stylist Helle Bille</p>
+          </div>
+          <p class="spørgsmålBruger"> Hej skønne kvinder,<br>
+            Jeg vil hører om der er noget i har særlig lyst til, at hører om? Evt noget med kropstyper, ærmelængder eller blive mere selvsikker på jeres udstråling? Smid en kommentar🥳
+            <br>Hilsen Helle Bille
+          </p>
+          <div class="likeOgKommenter">
+            <div class="likeSection">
+              <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Synes godt om</p>
+            </div>
+            <div class="kommenterSection">
+              <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+              <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+              <p class="LKtekst">Kommenter</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="svar">
+          <p class="lilleTekst">15 kommentarer</p>
+    
+          <div class="enkeltKommentar">
+            <div class="navnOgTid">
+              <div class="navnOgImg">
+                <img src="img/jytteLahn.jpg" alt="billede" class="enkeltImg">
+                <p class="enkeltNavn">Jytte Lahn Nielsen</p>
+              </div>
+              <p class="tid">27. november 12:12</p>
+            </div>
+            <p class="kommentarTekst">Noget med ærmelængder</p>
+          </div>
+          <div class="enkeltKommentar">
+            <div class="navnOgTid">
+              <div class="navnOgImg">
+                <img src="img/hella.jpg" alt="billede" class="enkeltImg">
+                <p class="enkeltNavn">Hella Rasmussen</p>
+              </div>
+              <p class="tid">27. november 12:21</p>
+            </div>
+            <p class="kommentarTekst">Kommer der snart en ny konkurrence?</p>
+          </div>
+          <div class="enkeltKommentar">
+            <div class="navnOgTid">
+              <div class="navnOgImg">
+                <img src="img/anna.jpg" alt="billede" class="enkeltImg">
+                <p class="enkeltNavn">Annette Fil Hansen</p>
+              </div>
+              <p class="tid">27. november 14.19</p>
+            </div>
+            <p class="kommentarTekst">Jeg vil gerne se mere inspiration fra dit skab! Jeg elsker at få inspiration fra din stil!!</p>
+          </div>
+          <div class="enkeltKommentar">
+            <div class="navnOgTid">
+              <div class="navnOgImg">
+                <img src="img/lena.jpg" alt="billede" class="enkeltImg">
+                <p class="enkeltNavn">Lena Johansen</p>
+              </div>
+              <p class="tid">26. november 12:36</p>
+            </div>
+            <p class="kommentarTekst">Jeg kunne godt tænke mig at høre lidt om pasformer i forhold til store kvinder som har lidt ekstra fylde.</p>
+          </div>
+          <div class="enkeltKommentar">
+            <div class="navnOgTid">
+              <div class="navnOgImg">
+                <img src="img/ea.jpg" alt="billede" class="enkeltImg">
+                <p class="enkeltNavn">Ea Gry Larsen</p>
+              </div>
+              <p class="tid">26. november 17:27</p>
+            </div>
+            <p class="kommentarTekst"> Jeg vil rigtig gerne høre mere om kropstyper og samtidig blive mere selvsikker! </p>
+          </div>
+    
+          <p class="lilleTekst">Se flere kommentarer...</p>
+    
+          <div class="kommenterFlex">
+            <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+            <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+          </div>
+        </div>
+      </section>
+
+    <!--Marianne kommentar-->
+    <section class="page" id="MarianneKommenter">
+      <a href="#question" rel="link" class="tilbageKommentar">Tilbage</a>
+      <h2 class="KommenterHeader">Kommenter</h2>
+      <div class="brugerSprg">
+        <div class="profilImgOgNavn">
+          <img src="img/Marianne.jpg" alt="profil billede" class="pb">
+          <p class="profilNavn">Marianne Lauritzen</p>
+        </div>
+        <p class="spørgsmålBruger"> Goddaw Helle<br>
+          Jeg vil hører om du kan give et tip til momjeans. Med hvornår de er for store og hvornår de er for ’små’ ? :D
+          <br>Fra Marianne Lauritzen
+        </p>
+        <div class="kjoler">
+          <img src="img/momJeans.jpg" alt="img" class="askImg">
+        </div>
+        <div class="likeOgKommenter">
+          <div class="likeSection">
+            <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+            <p class="LKtekst">Synes godt om</p>
+          </div>
+          <div class="kommenterSection">
+            <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+            <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+            <p class="LKtekst">Kommenter</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="svar">
+        <p class="lilleTekst">14 kommentarer</p>
+  
+        <div class="enkeltKommentar1">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/helleImg.png" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Stylist Helle Bille</p>
+            </div>
+            <p class="tid">28. november 11:21</p>
+          </div>
+          <p class="kommentarTekst">Hej Marianne<br>
+            Det kommer faktisk meget an på din figur. Hvis du er en pære eller æble, er det en god ide at vælge nogle som er lidt større i pasformen. Derimod hvis du er timeglas eller firkantet er det bedre med en mere slimfit model. Jeg kan dog varmt anbefale at prøve modellen fra Nora.   
+            <br>Mvh Stylist Helle Bille</p>
+        </div>
+        <div class="enkeltKommentar">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/lena.jpg" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Lena Johansen</p>
+            </div>
+            <p class="tid">28. november 13:11</p>
+          </div>
+          <p class="kommentarTekst">Jeg vælger dem faktisk altid et nummer for stort. Syntes det ser fedt ud de er oversize. </p>
+        </div>
+        <div class="enkeltKommentar">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/Joan.jpg" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Joan Melvin Hansen</p>
+            </div>
+            <p class="tid">28. november 21:21</p>
+          </div>
+          <p class="kommentarTekst">Jeg går ikke i sådan nogle bukser. Jeg synes det er fuldstændig galimathias at bruge penge på tøj der er gået i stykker! Jeg går mest i joginbukser</p>
+        </div>
+        <div class="enkeltKommentar">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/anna.jpg" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Annette Fil Hansen</p>
+            </div>
+            <p class="tid">29. november 06.09</p>
+          </div>
+          <p class="kommentarTekst">Uhh momjeans er ALTID trælse og finde, min popo ser altid for stor ud i dem eller så ligner det den er helt flad 😬😅  </p>
+        </div>
+        <div class="enkeltKommentar">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/ingrid.jpg" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Ingrid Larsen</p>
+            </div>
+            <p class="tid">29. november 06:10</p>
+          </div>
+          <p class="kommentarTekst"> Haha jeg er helt enig med Annette, det er møg svært 😩 </p>
+        </div>
+  
+        <p class="lilleTekst">Se flere kommentarer...</p>
+  
+        <div class="kommenterFlex">
+          <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+          <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+        </div>
+      </div>
+    </section>
+
+  <!-- jette kommentar-->
+  <section class="page" id="JetteKommenter">
+    <a href="#question" rel="link" class="tilbageKommentar">Tilbage</a>
+    <h2 class="KommenterHeader">Kommenter</h2>
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/jette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Jette Malic Hansen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle<br>
+        Kan du anbefale en god steamer til tøj?<br>
+        Mvh Jette
+      </p>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+          <p class="LKtekst">Kommenter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="svar">
+      <p class="lilleTekst">4 kommentarer</p>
+
+      <div class="enkeltKommentar1">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/helleImg.png" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Stylist Helle Bille</p>
+          </div>
+          <p class="tid">25. april 13:42</p>
+        </div> 
+        <p class="kommentarTekst">Hej Jette,
+        Der findes flere forskellige ude på market. Jeg har selv en til 349 kr. fra Phillips og det en af de billigere, som fungerer! :D <br>  
+          Mvh Stylist Helle Bille</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/charlotte.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Charlotte Bæk Iversen</p>
+          </div>
+          <p class="tid">25. april 14:31</p>
+        </div>
+        <p class="kommentarTekst">Jeg plejer bare at stryge mit tøj. </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/maiken.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Maiken Pedersen</p>
+          </div>
+          <p class="tid">25. april 21:18</p>
+        </div>
+        <p class="kommentarTekst">Jeg er enig med Helle ❤️</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/tine.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Tine Stoffer Jensen</p>
+          </div>
+          <p class="tid">26. april 07.47</p>
+        </div>
+        <p class="kommentarTekst">Jeg vil gerne anbefale den der hedder Roy Steamer Pro. Jeg fik den i julegave og er bare så glad for den :D</p>
+      </div>
+      <div class="kommenterFlex">
+        <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+        <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+      </div>
+    </div>
+  </section>
+
+  <!-- Margit kommentar-->
+  <section class="page" id="MargitKommenter">
+    <a href="#question" rel="link" class="tilbageKommentar">Tilbage</a>
+    <h2 class="KommenterHeader">Kommenter</h2>
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/margit.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Margit Høj Larsen</p>
+      </div>
+      <p class="spørgsmålBruger">Hej Helle <br>
+        Jeg skal ud og shoppe forårstøj. Hvilke Butikker er et must at tage forbi? Og hvor har Du købt dit grønne jakkesæt?💚😍<br>
+        Mvh Margit
+      </p>
+      <div class="likeOgKommenter">
+        <div class="likeSection">
+          <img src="img/ikoner/like.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Synes godt om</p>
+        </div>
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+          <p class="LKtekst">Kommenter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="svar">
+      <p class="lilleTekst">6 kommentarer</p>
+
+      <div class="enkeltKommentar1">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/helleImg.png" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Stylist Helle Bille</p>
+          </div>
+          <p class="tid">27. december 13:42</p>
+        </div> 
+        <p class="kommentarTekst"> Goddag Margit, <br>  
+          Der ligger en rigtig god butik i Viby centeret, som netop har mit grønne jakkesæt på tilbud og butikken hedder Mappstore 💚😁<br> 
+          Derudover har Bahne noget rigtig smart tøj 😁 Jeg sender også inden længe et nyhedsbrev ud, hvor der kommer en lille guide til forårs moden. Da mange kan være lidt udfordret i man begynder, at have færre lag tøj på.
+        <br>  Mvh Stylist Helle Bille
+        </p>
+        </div>
+        
+        <div class="enkeltKommentar">
+          <div class="navnOgTid">
+            <div class="navnOgImg">
+              <img src="img/nikkie.jpg" alt="billede" class="enkeltImg">
+              <p class="enkeltNavn">Nikkie Pedersen</p>
+            </div>
+          <p class="tid">27. december 14:20</p>
+        </div>
+        <p class="kommentarTekst">Jeg kan virkelig godt lide samsøe samsøe butikken eller message, syntes jeg er virkelig fed 😍😍  </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/jytteLahn.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Jytte Lahn Nielsen</p>
+          </div>
+          <p class="tid">27. december 21:18</p>
+        </div>
+        <p class="kommentarTekst">Jeg kan vildt godt lide genbrugen i Sønderborg!</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/ea.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Ea Gry Larsen</p>
+          </div>
+          <p class="tid">28. december 08.12</p>
+        </div>
+        <p class="kommentarTekst">Jeg køber kun tøj når jeg skal noget. Synes det er spild af penge ellers.</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/kathrine.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Kathrine Sørensen</p>
+          </div>
+          <p class="tid">28. december 09.40</p>
+        </div>
+        <p class="kommentarTekst">Jeg handler også kun tøj 2-3 gange i løbet af et år og jeg har stadig noget fra sidste år som jeg syntes er smart 😁 </p>
+      </div>
+      <p class="lilleTekst">Se flere kommentarer...</p>
+      <div class="kommenterFlex">
+        <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+        <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Nyheder -->
+  <section id="home" class="page">
+    <h2 class="overskrift">Nyheder</h2>
+    <div class="jsonNyheder" id="nyhederJson"></div>
+  </section>
+
+  <!-- Gemte opslag -->
+  <section id="liked" class="page">
+    <div class="gemtebar">
+      <div class="gemteBarLink" id="opslag" onclick="changeContent1()"><p>Opslag</p></div>
+      <div class="gemteBarLink" id="sporg" onclick="changeContent2()"><p>Spørgsmål</p></div>
+      <div class="gemteBarLink" id="video" onclick="changeContent3()">Videoer</div>
+    </div>
+
+      <div id="opslagLiked">
+        <h2 class="likedHeader">Gemte opslag</h2>
+        <div class="nyhedsbox">
+          <div class="hjerteOgNavn">
+          <div class="helle">
+            <img src="img/helleImg.png" class="nyhedMiniImg" alt="billede">
+            <p class="navn">Stylist Helle Bille</p>
+          </div>
+          <a href=""><img src="img/ikoner/liked.png" alt="billede" class="likeIkon"></a>
+          </div>
+          <a href=""><img src="img/nyhedImg2.jpg" class="nyhedImg" alt="billede"></a>
+          <div class="like">
+            <h3 class="overskrifth3 nyh3" >Book en stilvejledning</h3>
+          </div>
+        </div>
+        <div class="nyhedsbox">
+          <div class="hjerteOgNavn">
+          <div class="helle">
+            <img src="img/helleImg.png" class="nyhedMiniImg" alt="billede">
+            <p class="navn">Stylist Helle Bille</p>
+          </div>
+          <a href=""><img src="img/ikoner/liked.png" alt="billede" class="likeIkon"></a>
+          </div>
+          <a href=""><img src="img/shoppingtur.jpg" class="nyhedImg" alt="billede"></a>
+          <div class="like">
+            <h3 class="overskrifth3 nyh3" >Book en Shoppingtur</h3>
+          </div>
+        </div>
+        <div class="nyhedsbox">
+          <div class="hjerteOgNavn">
+            <div class="helle">
+              <img src="img/helleImg.png" class="nyhedMiniImg" alt="billede">
+              <p class="navn">Stylist Helle Bille</p>
+            </div>
+            <a href=""><img src="img/ikoner/liked.png" alt="billede" class="likeIkon"></a>
+          </div>
+          <a href=""><img src="img/makeover.jpg" class="nyhedImg" alt="billede"></a>
+          <div class="like">
+            <h3 class="overskrifth3 nyh3" >Book en Makeover</h3>
+          </div>
+        </div>
+      </div>
+
+      <div id="questionLiked">
+        <h2 class="likedHeader">Gemte spørgsmål</h2>
+        <div class="brugerSprg">
+          <div class="profilImgOgNavn">
+            <img src="img/jette.jpg" alt="profil billede" class="pb">
+            <p class="profilNavn">Jette Malic Hansen</p>
+          </div>
+          <p class="spørgsmålBruger"> Hej Helle <br>
+            Kan du anbefale en god steamer til tøj?<br>
+            Mvh Jette </p>
+          <div class="likeOgKommenter">
+            <div class="likeSection">
+              <img src="img/ikoner/liked.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Synes godt om</p>
+            </div>
+            <div class="kommenterSection">
+              <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Kommenter</p>
+            </div>
+          </div>
+        </div>
+        <div class="brugerSprg">
+          <div class="profilImgOgNavn">
+            <img src="img/Marianne.jpg" alt="profil billede" class="pb">
+            <p class="profilNavn">Marianne Lauritzen</p>
+          </div>
+          <p class="spørgsmålBruger"> Goddaw Helle <br>
+            Jeg vil hører om du kan give et tip til momjeans. 
+            Med hvornår de er for store og hvornår de er for
+            ’små’ ? :D <br>
+            Fra Marianne Lauritzen </p>
+            <img src="img/momJeans.jpg" alt="img" class="bukser">
+          <div class="likeOgKommenter">
+            <div class="likeSection">
+              <img src="img/ikoner/liked.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Synes godt om</p>
+            </div>
+            <div class="kommenterSection">
+              <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Kommenter</p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="brugerSprg">
+          <div class="profilImgOgNavn">
+            <img src="img/helleImg.png" alt="profil billede" class="pb">
+            <p class="profilNavn">Stylist Helle Bille</p>
+          </div>
+          <p class="spørgsmålBruger"> Hej skønne kvinder,<br>
+            Jeg vil hører om der er noget i har særlig lyst
+            til, at hører om? Evt noget med kropstyper, 
+            ærmelængder eller blive mere selvsikker på 
+            jeres udstråling?
+            Smid en kommentar🥳 <br>
+            Hilsen Helle Bille
+          </p>
+          <div class="likeOgKommenter">
+            <div class="likeSection">
+              <img src="img/ikoner/liked.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Synes godt om</p>
+            </div>
+            <div class="kommenterSection">
+              <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+              <p class="LKtekst">Kommenter</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="VideoLiked">
+        <h2 class="likedHeader">Gemte videoer</h2>
+        <div class="videoFlex">
+          <div class="hverVideo">
+            <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/hVvhy5gmpXk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="navnOgLike">
+              <h4 class="videoNavn">Modereportage</h4>
+              <img src="img/ikoner/liked.png" alt="billede" class="videoLike">
+            </div>
+          </div>
+          <div class="hverVideo">
+            <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/jKJT_mEHuLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="navnOgLike">
+              <h4 class="videoNavn">Solbrille video</h4>
+              <img src="img/ikoner/liked.png" alt="billede" class="videoLike">
+            </div>
+          </div>
+          <div class="hverVideo">
+            <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/AhrV0wzQgRM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="navnOgLike">
+              <h4 class="videoNavn">Modereportage</h4>
+              <img src="img/ikoner/liked.png" alt="billede" class="videoLike">
+            </div>
+          </div>
+          <div class="hverVideo">
+            <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/76Vwiz6b69U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="navnOgLike">
+              <h4 class="videoNavn">Modereportage</h4>
+              <img src="img/ikoner/liked.png" alt="billede" class="videoLike">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!-- profil -->
+  <section id="profil" class="page">
+    <img src="img/jette.jpg" alt="billede" class="Jette">
+    <p class="fixImg">Ændre billede</p>
+    <p class="hello">Hej Jette Malic Hansen</p> <br>
+    <p class="infoJette">E-mail: Jette59@hotmail.com <br>
+      Fødselsdag: 30. Oktober 1964</p>
+    <h2 class="jetteKategori">Valgte kategorier</h2>
+    <div class="kategoriFlex">
+      <div class="flexTekst">
+        <p class="Kategoritekst">Konkurrencer</p>
+        <p class="Kategoritekst">Medlemsfordele</p>
+        <p class="Kategoritekst">Nyhedsbrev</p>
+        <p class="Kategoritekst">Inspiration</p>
+        <p class="Kategoritekst">Styling-foredrag</p>
+      </div>
+      <div class="flexKnap">
+        <div class="switch">
+          <input type="checkbox" id="c8">
+          <label for="c8"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c9">
+          <label for="c9"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c10">
+          <label for="c10"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c11">
+          <label for="c11"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c12">
+          <label for="c12"><span></span></label>
+        </div>
+      </div>
+    </div>
+    <a href="#login" rel="link" class="knap">Log ud</a>
+    <a href="#redigerProfil" rel="link" class="knap">Rediger profil</a>
+  </section>
+
+  <!-- rediger profil -->
+  <section class="page" id="redigerProfil">
+    <h2 class="jetteKategori">Rediger profil</h2>
+    <input class="redigerInput" type="text" placeholder="Tilføj billede">
+    <input class="redigerInput" type="text" placeholder="Fulde navn">
+    <input class="redigerInput" type="text" placeholder="E-mail">
+    <input class="redigerInput" type="text" placeholder="Kodeord">
+    <input class="redigerInput" type="text" placeholder="Gentag kodeord">
+    <h2 class="jetteKategori">Fødselsdag</h2>
+    <div class="alderFlex">
+      <form>
+        <div class="form_row">
+          <select name="days">
+            <option value="day-select">Dag</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+          </select>
+          <select name="month">
+            <option value="month-select">Måned</option>
+            <option value="januar">Januar</option>
+            <option value="februar">Februar</option>
+            <option value="marts">Marts</option>
+            <option value="april">April</option>
+            <option value="maj">Maj</option>
+            <option value="juni">Juni</option>
+            <option value="juli">Juli</option>
+            <option value="august">August</option>
+            <option value="september">September</option>
+            <option value="oktober">Oktober</option>
+            <option value="november">November</option>
+            <option value="december">December</option>
+          </select>
+          <select name="year">
+            <option value="year-select">År</option>
+            <option value="1982">1982</option>
+            <option value="1981">1981</option>
+            <option value="1980">1980</option>
+            <option value="1979">1979</option>
+            <option value="1978">1978</option>
+            <option value="1977">1977</option>
+            <option value="1976">1976</option>
+            <option value="1975">1975</option>
+            <option value="1974">1974</option>
+            <option value="1973">1973</option>
+            <option value="1972">1972</option>
+            <option value="1971">1971</option>
+            <option value="1970">1970</option>
+            <option value="1969">1969</option>
+            <option value="1968">1968</option>
+            <option value="1967">1967</option>
+            <option value="1966">1966</option>
+            <option value="1965">1965</option>
+            <option value="1964">1964</option>
+            <option value="1963">1963</option>
+            <option value="1962">1962</option>
+            <option value="1961">1961</option>
+            <option value="1960">1960</option>
+            <option value="1959">1959</option>
+            <option value="1958">1958</option>
+            <option value="1957">1957</option>
+            <option value="1956">1956</option>
+            <option value="1955">1955</option>
+            <option value="1954">1954</option>
+            <option value="1953">1953</option>
+            <option value="1952">1952</option>
+            <option value="1951">1951</option>
+            <option value="1950">1950</option>
+            <option value="1949">1949</option>
+            <option value="1948">1948</option>
+            <option value="1947">1947</option>
+            <option value="1946">1946</option>
+            <option value="1945">1945</option>
+            <option value="1944">1944</option>
+            <option value="1943">1943 </option>
+            <option value="1942">1942</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <h2 class="jetteKategori">Kategorier</h2>
+    <div class="kategoriFlex">
+      <div class="flexTekst">
+        <p class="Kategoritekst">Konkurrencer</p>
+        <p class="Kategoritekst">Medlemsfordele</p>
+        <p class="Kategoritekst">Nyhedsbrev</p>
+        <p class="Kategoritekst">Inspiration</p>
+        <p class="Kategoritekst">Styling-foredrag</p>
+      </div>
+      <div class="flexKnap">
+        <div class="switch">
+          <input type="checkbox" id="c1">
+          <label for="c1"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c2">
+          <label for="c2"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c3">
+          <label for="c3"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c4">
+          <label for="c4"><span></span></label>
+        </div>
+        <div class="switch">
+          <input type="checkbox" id="c5">
+          <label for="c5"><span></span></label>
+        </div>
+      </div>
+    </div>
+
+    <a href="#profil" rel="link" class="knap">Rediger profil</a>
+  </section>
+
+
+  <!-- Helles main pages -->
+  <!-- Forside - Helle -->
+  <section id="admin" class="page">
+    <div class="helleNavnIMG">
+      <a href="#profilHelle" rel="link" class="helleLink">
+        <img src="img/helleImg.png" alt="img" class="helleImg">
+      </a>
+      <a href="#profilHelle" rel="link" class="helleLink">
+        <p class="helleNavn">Hej Helle</p>
+      </a>
+    </div>
+    <h1 class="adminHeader">Dagens status</h1>
+    <p class="status">165 profiler<br>
+    5 nye spørgsmål</p>
+    <h2 class="ToDo">Hvad ønsker du at gøre?</h2>
+    <div class="adminFlex">
+      <a href="#opretOpslag" rel="link" class="adminLink">
+        <img src="img/ikoner/adminOpslag.png" alt="img" class="adminIkon">
+      </a>
+      <a href="#opretVideo" rel="link" class="adminLink">
+        <img src="img/ikoner/adminVideo.png" alt="img" class="adminIkon">
+      </a>
+      <a href="#svarquestionHelle" rel="link" class="adminLink">
+        <img src="img/ikoner/adminAsk.png" alt="img" class="adminIkon">
+      </a>
+      <a href="#profiler" rel="link" class="adminLink">
+        <img src="img/ikoner/adminAdministrer.png" alt="img" class="adminIkon">
+      </a>
+    </div>
+    <a href="#login" rel="link" class="knap">Opdater app</a>
+    <a href="#hellesNyheder" rel="link" class="adminNyhed">
+      <img src="img/ikoner/home.png" alt="link" class="adminHomeLink">
+    </a>
+  </section>
+
+  <!-- Administrer profiler -->
+  <section class="page" id="profiler">
+    <div class="navnOgTilbage">
+      <div class="helleNavnIMG">
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <img src="img/helleImg.png" alt="img" class="helleImg">
+        </a>
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <p class="helleNavn">Hej Helle</p>
+        </a>
+      </div>
+      <a href="#admin" rel="link" class="tilbage">Tilbage</a>
+    </div>
+    <h2 class="profilerHeader">Administrer profiler</h2>
+    <p class="antal">165 profiler</p>
+
+    <div class="jsonProfiler" id="profilerJson"></div>
+  </section>
+
+  <!-- Opret opslag -->
+  <section class="page" id="opretOpslag">
+    <div class="navnOgTilbage">
+      <div class="helleNavnIMG">
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <img src="img/helleImg.png" alt="img" class="helleImg">
+        </a>
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <p class="helleNavn">Hej Helle</p>
+        </a>
+      </div>
+      <a href="#admin" rel="link" class="tilbage">Tilbage</a>
+    </div>
+    <h2 class="OpretHeader">Opret opslag</h2>
+    <input type="text" placeholder="Tilføj overskrift" class="OpslagOverskrift">
+    <input type="text" placeholder="Tilføj billede" class="opretImg">
+    <div class="opslagDiv">
+      <div class="tekstValg">
+        <p class="farveTekst">Tekst farve</p>
+        <div class="farve"></div>
+        <p class="tekstForm"><strong>B</strong></p>
+        <p class="tekstForm"><U>U</U></p>
+        <p class="tekstForm"><i>I</i></p>
+        <p class="strTekst">Str.</p>
+        <input class="tal" placeholder="0" type="text">
+      </div>
+      <input type="text" placeholder="Hvad har du på hjertet?" class="opslagTekst">
+    </div>
+    <p class="knap2">Tilføj hjemmeside knap</p>
+    <p class="knap2">Tilføj webshop knap</p>
+    
+      <h2 class="sorterHeader">Sorter efter kategorier</h2>
+      <div class="kategoriFlex">
+        <div class="flexTekst">
+          <p class="Kategoritekst">Konkurrencer</p>
+          <p class="Kategoritekst">Medlemsfordele</p>
+          <p class="Kategoritekst">Nyhedsbrev</p>
+          <p class="Kategoritekst">Inspiration</p>
+          <p class="Kategoritekst">Styling-foredrag</p>
+        </div>
+        <div class="flexKnap">
+          <div class="switch">
+            <input type="checkbox" id="35">
+            <label for="35"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="36">
+            <label for="36"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="37">
+            <label for="37"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="38">
+            <label for="38"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="39">
+            <label for="39"><span></span></label>
+          </div>
+        </div>
+        </div>
+    
+    <a href="#admin" class="knap" rel="link">Slå op</a>
+    <a href="#admin" class="knap" rel="link">Gem klade</a>
+    <a href="#admin" class="knap" rel="link">Slet klade</a>
+  </section>
+
+  <!-- Helles Nyheder -->
+  <section id="hellesNyheder" class="page">
+    <div class="navnOgTilbage">
+      <div class="helleNavnIMG">
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <img src="img/helleImg.png" alt="img" class="helleImg">
+        </a>
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <p class="helleNavn">Hej Helle</p>
+        </a>
+      </div>
+      <a href="#admin" rel="link" class="tilbage">Tilbage</a>
+    </div>
+    <h2 class="overskrift">Nyheder</h2>
+
+    <div class="jsonOpslag" id="opslagJson"></div>
+    </section>
+
+  <!-- opret videoer - helle -->
+  <section class="page" id="opretVideo">
+    <div class="navnOgTilbage">
+      <div class="helleNavnIMG">
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <img src="img/helleImg.png" alt="img" class="helleImg">
+        </a>
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <p class="helleNavn">Hej Helle</p>
+        </a>
+      </div>
+      <a href="#admin" rel="link" class="tilbage">Tilbage</a>
+    </div>
+    <h2 class="OpretVHeader">Opret live eller video</h2>
+    <a href="" rel="link" class="knap">Start live</a>
+    <div class="tilføjFlex">
+      <input type="text" placeholder="Tilføj video" class="tilføjVideoInput">
+      <img src="img/ikoner/live.png" alt="img" class="tilføjVideoImg">
+    </div>
+    <h3 class="videoHeader">Alle videoer</h3>
+    <div class="videoFlex">
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/hVvhy5gmpXk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/slet.png" alt="billede" class="sletIkon">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/jKJT_mEHuLQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Solbrille video</h4>
+          <img src="img/ikoner/slet.png" alt="billede" class="sletIkon">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/AhrV0wzQgRM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/slet.png" alt="billede" class="sletIkon">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/76Vwiz6b69U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">Modereportage</h4>
+          <img src="img/ikoner/slet.png" alt="billede" class="sletIkon">
+        </div>
+      </div>
+    </div>
+    <p class="loadMore">Indlæs flere....</p>
+    <h3 class="videoHeader">Afsluttede lives </h3>
+    <div class="videoFlex">
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/KgIO5xPuqdQ" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">17. Januar 2022</h4>
+          <img src="img/ikoner/slet.png" alt="bilelde" class="sletIkon">
+        </div>
+      </div>
+      <div class="hverVideo">
+        <iframe width="143" height="107" class="ytVideo" src="https://www.youtube.com/embed/zfb-gRWPBLk" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="navnOgLike">
+          <h4 class="videoNavn">30. Januar 2022</h4>
+          <img src="img/ikoner/slet.png" alt="billede" class="sletIkon">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Svar på spørgsmål -->
+  <section class="page" id="svarquestionHelle">
+    <div class="navnOgTilbage">
+      <div class="helleNavnIMG">
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <img src="img/helleImg.png" alt="img" class="helleImg">
+        </a>
+        <a href="#profilHelle" rel="link" class="helleLink">
+          <p class="helleNavn">Hej Helle</p>
+        </a>
+      </div>
+      <a href="#admin" rel="link" class="tilbage">Tilbage</a>
+    </div>
+    <h2 class="overskrift">Svar på spørgsmål</h2>
+    <div class="stilsprg">
+      <input type="text" class="inputstyle" placeholder="Skriv dit spørgsmål her...">
+      <img src="img/ikoner/send.png" alt="billede" class="sendKnap" >
+      <div class="addImg">
+        <img src="img/ikoner/image.png" alt="billede" class="addImgIkon">
+        <p class="addImgText">Tilføj billede</p>
+      </div>
+    </div>
+
+    <!-- Bruger spørgsmål -->
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/jette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Jette Malic Hansen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle <br>
+        Kan du anbefale en god steamer til tøj?<br>
+        Mvh Jette </p>
+      <div class="likeOgKommenter">
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Kommenter</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/henriette.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Henriette Sørensen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle
+        Jeg skal til bryllup til april, og ønsker lidt 
+        vejledning til hvilken kjole der passer bedst til
+        mig. Vil du hjælpe?😍 <br>
+        Mvh Henriette
+      </p>
+      <div class="kjoler">
+        <img src="img/blueDress.jpg" alt="img" class="askImg">
+        <img src="img/purpleDress.jpg" alt="img" class="askImg">
+      </div>
+      <div class="likeOgKommenter">
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <a href="#henrietteKommenter" rel="link" class="kommenterlink">
+          <p class="LKtekst">Kommenter</p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/margit.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Margit Høj Larsen</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej Helle <br>
+        Jeg skal ud og shoppe forårstøj. Hvilke 
+        Butikker er et must at tage forbi? Og hvor har
+        Du købt dit grønne jakkesæt?💚😍<br>
+        Mvh Margit
+      </p>
+      <div class="likeOgKommenter">
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Kommenter</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/Marianne.jpg" alt="profil billede" class="pb">
+        <p class="profilNavn">Marianne Lauritzen</p>
+      </div>
+      <p class="spørgsmålBruger"> Goddaw Helle <br>
+        Jeg vil hører om du kan give et tip til momjeans. 
+        Med hvornår de er for store og hvornår de er for
+        ’små’ ? :D <br>
+        Fra Marianne Lauritzen </p>
+        <img src="img/momJeans.jpg" alt="img" class="bukser">
+      <div class="likeOgKommenter">
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Kommenter</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="brugerSprg">
+      <div class="profilImgOgNavn">
+        <img src="img/helleImg.png" alt="profil billede" class="pb">
+        <p class="profilNavn">Stylist Helle Bille</p>
+      </div>
+      <p class="spørgsmålBruger"> Hej skønne kvinder,<br>
+        Jeg vil hører om der er noget i har særlig lyst
+        til, at hører om? Evt noget med kropstyper, 
+        ærmelængder eller blive mere selvsikker på 
+        jeres udstråling?
+        Smid en kommentar🥳 <br>
+        Hilsen Helle Bille
+      </p>
+      <div class="likeOgKommenter">
+        <div class="kommenterSection">
+          <img src="img/ikoner/kommenter.png" alt="billede" class="LKikon">
+          <p class="LKtekst">Kommenter</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Helles profil -->
+  <section id="profilHelle" class="page">
+    <a href="#admin" rel="link" class="tilbageHelle">Tilbage</a>
+    <img src="img/helleImg.png" alt="billede" class="Jette">
+    <p class="fixImg">Ændre billede</p>
+    <p class="hello">Hej Helle Bille</p> <br>
+    <p class="infoJette">E-mail: Helle@uniquestyle.dk <br>
+        Fødselsdag: 08. Oktober 1961</p>
+        <h2 class="jetteKategori">Valgte kategorier</h2>
+        <div class="kategoriFlex">
+          <div class="flexTekst">
+            <p class="Kategoritekst">Konkurrencer</p>
+            <p class="Kategoritekst">Medlemsfordele</p>
+            <p class="Kategoritekst">Nyhedsbrev</p>
+            <p class="Kategoritekst">Inspiration</p>
+            <p class="Kategoritekst">Styling-foredrag</p>
+          </div>
+          <div class="flexKnap">
+            <div class="switch">
+              <input type="checkbox" id="c13">
+              <label for="c13"><span></span></label>
+            </div>
+            <div class="switch">
+              <input type="checkbox" id="c14">
+              <label for="c14"><span></span></label>
+            </div>
+            <div class="switch">
+              <input type="checkbox" id="c15">
+              <label for="c15"><span></span></label>
+            </div>
+            <div class="switch">
+              <input type="checkbox" id="c16">
+              <label for="c16"><span></span></label>
+            </div>
+            <div class="switch">
+              <input type="checkbox" id="c17">
+              <label for="c17"><span></span></label>
+            </div>
+          </div>
+        </div>
+    <a href="#redigerProfilHelle" rel="link" class="knap">Rediger profil</a>
+  </section>
+  
+    <!-- rediger profil -->
+    <section class="page" id="redigerProfilHelle">
+      <h2 class="jetteKategori">Rediger profil</h2>
+      <input class="redigerInput" type="text" placeholder="Tilføj billede">
+      <input class="redigerInput" type="text" placeholder="Fulde navn">
+      <input class="redigerInput" type="text" placeholder="E-mail">
+      <input class="redigerInput" type="text" placeholder="Kodeord">
+      <input class="redigerInput" type="text" placeholder="Gentag kodeord">
+      <h2 class="jetteKategori">Fødselsdag</h2>
+      <div class="alderFlex">
+        <form>
+          <div class="form_row">
+            <select name="days">
+              <option value="day-select">Dag</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              <option value="13">13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16">16</option>
+              <option value="17">17</option>
+              <option value="18">18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26">26</option>
+              <option value="27">27</option>
+              <option value="28">28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31">31</option>
+            </select>
+            <select name="month">
+              <option value="month-select">Måned</option>
+              <option value="januar">Januar</option>
+              <option value="februar">Februar</option>
+              <option value="marts">Marts</option>
+              <option value="april">April</option>
+              <option value="maj">Maj</option>
+              <option value="juni">Juni</option>
+              <option value="juli">Juli</option>
+              <option value="august">August</option>
+              <option value="september">September</option>
+              <option value="oktober">Oktober</option>
+              <option value="november">November</option>
+              <option value="december">December</option>
+            </select>
+            <select name="year">
+              <option value="year-select">År</option>
+              <option value="1982">1982</option>
+              <option value="1981">1981</option>
+              <option value="1980">1980</option>
+              <option value="1979">1979</option>
+              <option value="1978">1978</option>
+              <option value="1977">1977</option>
+              <option value="1976">1976</option>
+              <option value="1975">1975</option>
+              <option value="1974">1974</option>
+              <option value="1973">1973</option>
+              <option value="1972">1972</option>
+              <option value="1971">1971</option>
+              <option value="1970">1970</option>
+              <option value="1969">1969</option>
+              <option value="1968">1968</option>
+              <option value="1967">1967</option>
+              <option value="1966">1966</option>
+              <option value="1965">1965</option>
+              <option value="1964">1964</option>
+              <option value="1963">1963</option>
+              <option value="1962">1962</option>
+              <option value="1961">1961</option>
+              <option value="1960">1960</option>
+              <option value="1959">1959</option>
+              <option value="1958">1958</option>
+              <option value="1957">1957</option>
+              <option value="1956">1956</option>
+              <option value="1955">1955</option>
+              <option value="1954">1954</option>
+              <option value="1953">1953</option>
+              <option value="1952">1952</option>
+              <option value="1951">1951</option>
+              <option value="1950">1950</option>
+              <option value="1949">1949</option>
+              <option value="1948">1948</option>
+              <option value="1947">1947</option>
+              <option value="1946">1946</option>
+              <option value="1945">1945</option>
+              <option value="1944">1944</option>
+              <option value="1943">1943 </option>
+              <option value="1942">1942</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      <h2 class="jetteKategori">Kategorier</h2>
+      <div class="kategoriFlex">
+        <div class="flexTekst">
+          <p class="Kategoritekst">Konkurrencer</p>
+          <p class="Kategoritekst">Medlemsfordele</p>
+          <p class="Kategoritekst">Nyhedsbrev</p>
+          <p class="Kategoritekst">Inspiration</p>
+          <p class="Kategoritekst">Styling-foredrag</p>
+        </div>
+        <div class="flexKnap">
+          <div class="switch">
+            <input type="checkbox" id="c18">
+            <label for="c18"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="c19">
+            <label for="c19"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="c20">
+            <label for="c20"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="c21">
+            <label for="c21"><span></span></label>
+          </div>
+          <div class="switch">
+            <input type="checkbox" id="c22">
+            <label for="c22"><span></span></label>
+          </div>
+        </div>
+      </div>
+      <a href="#profilHelle" rel="link" class="knap">Rediger profil</a>
+    </section>
+
+  <!-- Opslag -->
+  <!-- Book en stilvejledning -->
+  <section class="page" id="bookStilvejledning">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Book en stilvejledning</h2>
+      <img src="img/nyhedImg2.jpg" alt="img" class="opslagBillede">
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">1 1/2 time med din egen personlige stylist, hvor du ikke har købetvang. Du får en vejledning du kan stole på, og som kan bruges resten af livet</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Grundig gennemgang af tøj, snit og pasformer, der klæder din figur (og du må gerne tage noget af dit eget tøj med)</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Styr på hvad du fremadrettet skal gå efter, når du køber tøj</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Set dig selv med “nye øjne”, når vi prøver din stil med tøj fra butikken</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Styr på farver og tilbehør – alt det der vil klæde dig</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Lært hvordan du varierer din stil kun ved hjælp af tilbehøret</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Svar på alle dine spørgsmål. Jeg er 100% ærlig og på din side</p>
+      </div>
+      <p class="citat"><i>“Jeg er helt oppe at køre 😄….Tusind tusind tak Helle – jeg kan ikke beskrive hvor glad jeg er. Jeg har brugt så mange år på at være utilfreds med mig selv og have fokus på de forkerte ting, og så skulle der ikke mere til end en session med dig – TAK 🙏”</i></p>
+      <h2 class="opslagHeaderPris">Pris for en stilvejledning<br>1.000,-</h2>
+      <p class="infoTekstOpslag">Jeg giver dig opskriften på, hvor lidt der skal til, for at du får styr på tøj, stil, farver og tilbehør. Dine vaner rykkes og du vil elske det.</p>
+      <p class="citat"><i>“Min mavedelle er virkelig VÆK – og blot ved at du viste mig nogle andre bukser end dem jeg plejer at købe – nu kan jeg både putte blusen indeni og have bælte på 😍  Kan kun sige GØR DET – altså book Helle og få en stilvejledning, så du ikke spilder din tid i så mange år som jeg har gjort 🤗 kh. Charlotte”</i></p>
+      <a href="" rel="link" class="knap">Besøg Helles shop</a>
+    </div>
+  </section>
+
+  <!-- Pasform bukser -->
+  <section class="page" id="pasformBukser">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Pasform bukser - Nyhedsbrev</h2>
+      <img src="img/pasformBukser.jpg" alt="img" class="opslagBillede">
+      <p class="kjolelangdeTekst">Kan du forestille dig, at en lille ting, som et par bukser med en anden pasform OG måden du sætter din bluse på, kan ændre dit udseende og måden du ser dig selv på
+        Ved at flytte fokus væk fra maven og få fokus et andet sted på din krop - ja så “forsvinder” din mave.     
+        Mine stilvejledninger handler nemlig om at lære dig at skabe symmetri på din krop og få fremhævet dine bedste sider - ved at flytte fokus væk fra de punkter som du er træt af 🤗  
+        Alle kvinder incl. mig selv har kropspunkter som vi er trætte af og som fylder alt for meget i vores bevidsthed. 
+       
+       <p style="color: #9E4F5C; text-align: center;" class="kjolelangdeTekst"><i> “Jeg er helt oppe at køre 😄
+        Tusind tusind tak Helle - jeg kan ikke beskrive hvor glad jeg er.
+        Jeg har brugt så mange år på at være utilfreds med mig selv og have fokus på de forkerte ting, og så skulle der ikke mere til end en session med dig - TAK 🙏
+        Min mavedelle er virkelig VÆK - og blot ved at du viste mig nogle andre bukser end dem jeg plejer at købe - nu kan jeg både putte blusen indeni og have bælte på 😍
+        Kan kun sige GØR DET - altså book Helle og få en stilvejledning, så du ikke spilder din tid i så mange år som jeg har gjort - kh. Charlotte” </i></p>
+     
+       <p class="kjolelangdeTekst"> Disse ord sagde Charlotte til mig efter hendes stilvejledning, og jeg blev så GLAD 😍 - ikke kun fordi hun roste mig, men FORDI hun strålede af glæde og lettelse over, at hun ENDELIG kunne slutte fred med sin mave som “fyldte” alt for meget i hendes bevidsthed når hun købte tøj.
+        Det var KUN 1 par nye bukser, som skulle til, for at Charlotte blev så glad 🤗 
+        Tænk sig hvis 1 par bukser kan gøre det samme for dig 🤔
+        Skriv dig op til Nyhedsbrev og få tips og triks til din garderobe. <br></p>
+        <a href="" rel="link" class="knap">Tilmeld nyhedsbrev</a>
+    </div>
+  </section>
+  
+  <!-- Undgå fejlkøb -->
+  <section class="page" id="undgaFejlkob">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Undgå fejlkøb - Nyhedsbrev</h2>
+      <img src="img/fejlkob.jpg" alt="img" class="opslagBillede">
+      <p class="infoTekstOpslag">Prøv at forestille dig at du er en smuk købmandsdisk<br>
+        - Hvorfor søren skal du være en købmandsdisk?<br>
+        Det skal jeg fortælle dig, for du har lige så mange muligheder med dit tøj og stil, som der er skuffer i denne købmandsdisk, og nogle gange er det bedre at forestille sig et billede, som en købmandsdisk, for bedre at kunne forstå
+        “The Big Picture”<br>
+        Hvor mange “skuffer” åbner du i din købmandsdisk?<br>
+        Jeg vil vædde med, at du slet ikke åbner halvdelen at dine “skuffer” - ikke en gang 1/3 af dem.<br><br>
+        
+        For hvis jeg kender dig ret, så udnytter du slet ikke alle de muligheder du har, når du skal købe tøj, bruge det du har i klædeskabet eller lege med din stil.</p>
+      <p class="citat"><i>“Hele øvelsen gik ud på at variere over den samme grundgarderobe, tilføje lidt nyt hist og her, bruge tilbehøret i andre sammenhænge osv.
+
+        Ikke mindst at overveje, hvad jeg har derhjemme, når jeg handler, i stedet for at købe impulsivt. Efter et par herlige timer var det slut, og jeg gik derfra som en ny kvinde med en selvtillid så høj som Eiffeltårnet” Linda Jensen</i></p>
+      <h2 class="opslagHeaderPris">Hvorfor er det, at vi kvinder går
+        rundt med skyklapper på, når
+        vi går ind i en tøjbutik?</h2>
+      <p class="infoTekstOpslag">Vores øjne søger PLEJER og vi går fluks hen til det tøj, som er i de farver vi kan li´ og som ligner det vi har i forvejen.<br><br>
+
+        Kan du nikke genkendende til det?<br><br>
+        
+        Det er fordi vi er vanemennesker, og at det er svært at bryde sine vaner og gøre noget andet end dét vi plejer.
+        Hvad andre gør er ikke ensbetydende med at du skal gøre det samme - ej heller at du partout skal følge modetrenden 100% for at være smart.<br><br>
+        
+        Det er altid følelsen du skal gå efter i tøjet, og når du finder den rigtige følelse - ja, så vil du opleve en tilfredshed og selvtillid, som du måske ikke tidligere har oplevet.</p>
+      <p class="citat"><i>“Tak for sidst, det er i grunden fantastisk hvad 2 timer i det rette selskab kan gøre.
+        Jeg kom jo slæbende med en stor taske med mit eget tøj i - var meget i tvivl om jeg skulle, men er nu glad for at jeg havde noget af mit eget med.<br><br>
+        
+        Du så mig i tøjet, gav gode råd til hvordan det kan bruges på kryds og tværs; et smykke her og der, hvordan man skjuler, at man ingen talje har J og mange andre gode råd, som jeg her efterfølgende bruger - hver dag!<br><br>
+        
+         Da du kom gående med skjorter, jeg skulle prøve tænkte jeg: WHAT! Blomster, stærke farver og rynker - de var flotte - men ikke til mig! Heldigvis prøvede jeg dem - og endte ud med 3 skjorter, som jeg aldrig selv ville have købt - jeg ville ikke engang have prøvet dem. Jeg blev forelsket i den første jeg prøvede, stum ved nr. 2 (tænk at jeg kan stråle i en grøn skjorte…)  og den røde måtte jeg bare have.<br><br>
+        
+        Jeg bruger de 2 af skjorterne hver uge og bliver lagt mærke til, får komplimenter - så jeg fortæller om min oplevelse hos dig. Den sidste skjorte venter på forår og jeg glæder mig virkelig til den skal i brug.<br><br>
+        
+        Tak for hjælpen Helle - Knus fra Ina</i></p>
+    </div>
+  </section>
+
+  <!-- Kjolelængde -->
+  <section class="page" id="kjoleLaengde">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Kjolelængde - Nyhedsbrev</h2>
+      <img src="img/kjolelangde.jpg" alt="img" class="opslagBillede">
+      <p class="kjolelangdeTekst">Ved du hvilken længde på kjoler som passer til dig?<br>
+        Hvis ikke så læs mit seneste nyhedsbrev 🤗<br>
+        ⬇️⬇️⬇️<br>
+        https://mailchi.mp/.../sdan-her-vlger-du-din-kjolelngde...<br>
+        Ønsker du at få stylingtips i din indbakke så skynd dig at tilmelde dig til mine nyhedsbreve hvor du får masser af tips og stilvejledning 👌<br>
+        Rigtig god weekend <br>
+        Kh. Helle</p>
+        <a href="" rel="link" class="knap">Tilmeld nyhedsbrev</a>
+    </div>
+  </section>
+  
+  <!-- Tom Ford konkurrence -->
+  <section class="page" id="TomFord">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Tom Ford konkurrence </h2>
+      <img src="img/tomford.jpg" alt="img" class="opslagBillede">
+      <p class="infoTekstOpslag">Så er det med at slå til!😍<br><br>
+
+        Lige nu kan du vinde disse super fede solbriller fra Tom Ford, Perfekt til sommeren som venter lige rundt om hjørnet. 😎<br><br>
+        
+        Alt du skal gøre for at deltage, er at smidde en kommenter til dette opslag, hvor du fortæller lidt om hvad du er gladest for ved Helles UNIVERS.<br><br>
+        
+        Jeg trækker en vinder lørdag d. 30. April. <br>
+        Vinderen vil blive kontaktet på mail herefter. <br><br>
+        
+        Kh Helle</p>
+    </div>
+    <div class="svar enMere">
+      <p class="lilleTekst">10 kommentarer</p>
+
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/jette.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Jette Malic Hansen</p>
+          </div>
+          <p class="tid">9. April 20:33</p>
+        </div>
+        <p class="kommentarTekst">Jeg kan lide de gode temaer fx overtøj eller 
+          bukser. Super info. Tak👍 </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Lotte.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Lotte Jørgensen</p>
+          </div>
+          <p class="tid">7. April 20:18</p>
+        </div>
+        <p class="kommentarTekst">Ideer og inspiration til tøj og styling</p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Joan.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Joan Melvin Hansen</p>
+          </div>
+          <p class="tid">4. April 07.47</p>
+        </div>
+        <p class="kommentarTekst">Jeg kan lide at se tips og tricks herinde.
+          Desværre har jeg ikke lige figuren til at følge 
+          dem, har endnu ikke fundet noget, som er 
+          pænt i størrelse ‘flodhest’. Derfor har jeg heller 
+          ikke brugt rabatmuligheder, da jeg pt. ikke 
+          køber tøj. </p>
+      </div>
+      <div class="enkeltKommentar">
+        <div class="navnOgTid">
+          <div class="navnOgImg">
+            <img src="img/Lene.jpg" alt="billede" class="enkeltImg">
+            <p class="enkeltNavn">Lene Østergaard</p>
+          </div>
+          <p class="tid">3. April 06.33</p>
+        </div>
+        <p class="kommentarTekst">Glad for inspiration til forskellige kropsterapi 
+          👍</p>
+      </div>
+
+      <p class="lilleTekst">Se flere kommentarer...</p>
+
+      <div class="kommenterFlex">
+        <input type="text" placeholder="Skriv en kommentar..." class="skriv">
+        <img src="img/ikoner/send.png" alt="billede" class="sendIkon">
+      </div>
+    </div>
+  </section>
+
+  <!-- valentine -->
+  <section class="page" id="Valentine">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Valentine</h2>
+      <img src="img/valentine.jpg" alt="img" class="opslagBillede">
+      <p class="infoTekstOpslag"><br>Jeg er i Valentine’s Day humør 💕 og derfor kan du nu shoppe alle armbånd, øreringe, halskæder, tørklæder og blondestrømper med 20% rabat inde på Helles SHOP 👏 <br><br>
+
+        Tilbudet gælder til og med den 14. februar kl. 0.00
+        Og kun så længe lager haves.<br><br>
+        
+        Brug koden: valentineshellesunivers <br><br>
+        
+        Der er også 20% rabat på min absolutte yndlingscreme, nemlig Rosalique 3i1 anti-rødme, som jeg bruger som min daglige makeup-creme.<br><br>
+        
+        Rosalique er en 3i1 antirødme creme med antirødme effekt, der både dæmper rødme, plejer huden og beskytter dig mod solen. Rosalique er en idéel creme til dig, der har tendens til rødme, eller ønsker at få en mere ensartet hudfarve.
+        Brug cremen i ansigtet, eller på enkelte områder (kinder, næse, pande, hage) for at kamuflere rødmen og skabe en smuk, sund og balanceret hudtone.<br><br>
+        
+        Du vil elske den, for den kan noget andre cremer ikke kan, samtidig med at du ser smuk og naturlig ud 👌<br><br> </p>
+  <p class="citat"><i>“Jeg elsker at jeg kan finde smykker og andet tilbehør hos dig, for jeg elsker din stil og du har en god smag. Du er god til at vejlede og vise, hvordan du selv bruger tilbehør og det får jeg meget inspiration af. Tak for det. Kh. Bente”</i></p>
+    <p class="opslagHeaderPris">“It’s all about the details”</p>
+
+    <p class="infoTekstOpslag">Hop ind på Helles SHOP og se alle de smukke armbånd i de nye forårsfarver.<br><br>
+
+      En nem måde at opdatere din stil på og gøre den forårsklar, er nemlig ved at få lidt nyt tilbehør, som du sætter til vintertøjet 🌸<br><br>
+      
+      På den måde markerer du overgangen fra vinter til forår, uden at skulle hoppe i forårstøjet, som er alt for koldt lige nu.<br><br>
+      
+      Dette TIP giver jeg altid mine kunder, når en ny sæson starter 🤗</p>
+      <a href="" rel="link" class="knap">Tilmeld nyhedsbrev</a>
+</div>
+  </section>
+
+  <!-- Book shoppingtur -->
+  <section class="page" id="bookShopping">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Book en shoppingtur</h2>
+      <img src="img/shoppingtur.jpg" alt="img" class="opslagBillede">
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">2 eller 3 timer med DIN egen personlige shoppingguide, ude i de valgte butikker, som passer til dig og dit budget</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Det behøver ikke kun være tøj og sko, som skal shoppes – måske du har brug for hjælp til valg af briller også</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Imens vi shopper, fortæller og lærer jeg dig alt om tøj og stil, der passer til dig og din figur</p>
+      </div>
+      <div class="dotOgTekst">
+        <img src="img/dot.png" alt="img" class="dot">
+        <p class="dotTekst">Du får lært, hvad du skal gå efter, når du shopper fremover, hvordan du skal mikse tøjet og hvor let du kan skifte stil, kun ved hjælp af tilbehør</p>
+      </div>
+      <p class="citat"><i>"Min Iphone er fuld af billeder, der viser muligheder for kombinationer på kryds og tværs – og hvordan jeg med små ændringer i accessories kan dresse op eller ned. Jeg er høj af alle de komplimenter, jeg har fået. Nu er jeg tøjmæssigt helt klar til en snarlig tilbagevenden til arbejdsmarkedet. Det var hver en krone værd! TAK Helle. Venligst Anne Lisbeth"</i></p>
+      <h2 class="opslagHeaderPris">Pris for en shoppingtur<br>1.350,- for 2 timer<br>1.995,- for 3 timer</h2>
+      <p class="infoTekstOpslag">En shoppingtur handler ikke om at bruge en masse penge, det handler om at få det rigtige tøj med hjem.</p>
+      <p class="citat"><i>“Helle hjælper mig med at shoppe 2 gange om året, jeg køber intet i mellemtiden”</i></p>
+      <a href="" rel="link" class="knap">Besøg Helles shop</a>
+    </div>
+  </section>
+
+  <!-- Book makeover -->
+  <section class="page" id="bookMakeover">
+    <a href="#home" rel="link" class="tilbageKnap">Tilbage</a>
+    <div class="opslagBoks">
+      <div class="navnOgLikeOpslag">
+        <div class="opslagNavnOgImg">
+          <img src="img/helleImg.png" alt="img" class="helleOpslag">
+          <p class="helleOpslagNavn">Stylist Helle Bille</p>
+        </div>
+        <img src="img/ikoner/like.png" alt="img" class="likeIkonOpslag">
+      </div>
+      <h2 class="opslagHeader">Book makeover</h2>
+            <img src="img/makeover.jpg" alt="img" class="opslagBillede"> 
+            <p class="infoTekstOpslag"> <br>En makeover er til dig, der trænger til noget nyt. Trænger til ny inspiration til din stil, dit tøjvalg, din frisure eller dit selvværd.</p>
+            <p class="opslagHeaderPris">Pris for en makeover </p>
+            <div class="dotOgTekst">
+              <img src="img/dot.png" alt="img" class="dot">
+              <p class="dotTekst">Pris 4.795,- for pakke 1</p>
+              </div>
+              <div class="dotOgTekst">
+                <img src="img/dot.png" alt="img" class="dot">
+                <p class="dotTekst">Pris 3.495,- for pakke 2</p>
+                </div>
+                <div class="dotOgTekst">
+                  <img src="img/dot.png" alt="img" class="dot">
+                  <p class="dotTekst">Pris 2.995,- for pakke 3</p>
+                  </div>       
+      <p class="infoTekstOpslag">Du kan læse mere om de forskellige pakker inde på hjemmesiden.  </p>
+      <p class="citat"><i>"Tænker mere i helheder nu, har fokus på de rigtige farver, rette tilbehør og det rigtige tøj"</i></p>
+      <img src="img/makeover2.jpg" alt="img" class="opslagBillede"> 
+      <p class="infoTekstOpslag" >Vi udvikler os hele livet, og vi tilpasser os omgivelserne med tiden vi lever i, men vi beholder det gamle tøj i skabet. En makeover kan gøre en forskel for dig i mere end én forstand, og lære dig at se dig selv med nye øjne. </p>
+      <p class="citat"><i>"Jeg har fået inspiration til at lege med og at udvikle min stil. Jeg er stadig mig og det gør mig glad"</i></p>
+      <a href="" rel="link" class="knap">Besøg Helles shop</a>
+    </div>
+  </section>
+  
+</div>
+
+  <!-- SCRIPTS -->
+  <!-- SPA -->
+  <script src="js/spa.js"></script>
+  <!-- JsonBin Opslag/Nyheder -->
+  <script src="js/jsonBinOpslag.js"></script>
+  <!-- JsonBin profiler -->
+  <script src="js/jsonBinProfiler.js"></script>
+  <!-- Gemte opslag -->
+  <script src="js/gemteOpslag.js"></script>
+
+</body>
+
+</html>
